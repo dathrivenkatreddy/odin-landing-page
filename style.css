@@ -45,5 +45,16 @@
   border: 5px solid #3882f6;
   border-radius: 20px;
   height: 10rem;
-  width: 10rem
+  width: 10rem;
+}
+
+.odin-bg-quote {
+  background-color: #e5e7eb;
+}
+
+.odin-text-quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
 }
