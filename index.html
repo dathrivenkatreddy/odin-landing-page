@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="corporate">
+<html lang="en" data-theme="lofi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,5 +18,36 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- NAV -->
+    <div class="navbar odin-bg-dark">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl odin-text-white">Header Logo</a>
+      </div>
+      <div class="flex-none">
+        <ul class="menu menu-horizontal px-1 odin-text-white">
+          <li><a>Header link 1</a></li>
+          <li><a>Header link 2</a></li>
+          <li><a>Header link 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- HERO -->
+    <div class="hero lg:h-96 min-w-screen odin-bg-dark">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="https://placehold.co/800x400?font=roboto"
+          class="max-w-sm rounded-lg shadow-2xl"
+        />
+        <div>
+          <h1 class="odin-text-heading">This website is awesome</h1>
+          <p class="pt-1 pb-10 odin-text-secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller fornt and the color is lower contrast
+          </p>
+          <button class="odin-blue odin-btn">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

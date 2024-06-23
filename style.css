@@ -1,3 +1,32 @@
 * {
   font-family: "Roboto", Arial, Helvetica, sans-serif !important;
 }
+
+.odin-bg-dark {
+  background-color: #1f2937;
+}
+
+.odin-text-heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.odin-text-secondary {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.odin-text-white {
+  color: #f9faf8;
+}
+
+.odin-blue {
+  background-color: #3882f6;
+}
+
+.odin-btn {
+  border-radius: 10px;
+  color: #f9faf8;
+  padding: 0.5em 1em;
+}
